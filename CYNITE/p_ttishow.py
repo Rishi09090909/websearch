@@ -153,7 +153,7 @@ async def re_enable_chat(bot, message):
     await bot.send_message(LOG_CHANNEL, script.UNBANG_LOG_TXT.format(chat_, message.from_user.mention))
 
 
-@Client.on_message(filters.command('stats') & filters.user(ADMINS) & filters.incoming)
+@Client.on_message(filters.command('stats') & filters.incoming)
 async def get_ststs(bot, message):
     buttons = [[
             InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url=CHNL_LNK)
