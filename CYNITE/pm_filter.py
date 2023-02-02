@@ -1131,10 +1131,12 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        btn = [[
-            InlineKeyboardButton(' ɢᴏᴏɢʟᴇ ', url=f"https://google.com/search?q={search}"),
-            InlineKeyboardButton('ɪᴍᴅʙ', url=f"https://imdb.com/find?q={search}")
-        ]]           
+        btn =[[
+
+            InlineKeyboardButton(' Click ', url=f"http://ipopcornmovies.rf.gd/?s={search}"),
+
+            
+        ]]
         k = await msg.reply_photo(photo=SPELL_IMG, caption=script.I_CUDNT, reply_markup=InlineKeyboardMarkup(btn))    
         await asyncio.sleep(SPL_DELETE_TIME)
         await k.delete()
