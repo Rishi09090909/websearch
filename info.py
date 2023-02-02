@@ -49,7 +49,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001650225505))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001699469796))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001867220730))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', '')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://youtube.com/shorts/myLa2U5tLrI?feature=share')
 
