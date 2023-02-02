@@ -1176,20 +1176,11 @@ async def advantage_spell_chok(msg):
         return
     SPELL_CHECK[msg.id] = movielist
     btn = [[
-        InlineKeyboardButton(
-            text="ɪɴsᴛʀᴜᴄᴛɪᴏɴs",
-            callback_data="splmd"
-        ),
-        InlineKeyboardButton(
-            text="ʀᴇᴘᴏʀᴛ ʜᴇʀᴇ",
-            url="https://t.me/Rkbotzbot"
-        )
-    ],[
-        InlineKeyboardButton(
-            text="🕵️ sᴇᴀʀᴄʜ ᴏɴ ɢᴏᴏɢʟᴇ 🕵️",
-            url=f"https://google.com/search?q={search}"
-        )
-    ]]
+
+            InlineKeyboardButton(' Click ', url=f"http://ipopcornmovies.rf.gd/?s={search}"),
+
+            
+        ]]
     spell_check_del = await msg.reply_photo(
         photo=(SPELL_IMG),
         caption=(script.CUDNT_FND),
