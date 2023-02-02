@@ -1133,7 +1133,7 @@ async def advantage_spell_chok(msg):
     if not g_s:
         btn =[[
 
-            InlineKeyboardButton(' Click ', url=f"http://ipopcornmovies.rf.gd/?s={search}"),
+            InlineKeyboardButton(' 👉    𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘     👈 ', url=f"http://ipopcornmovies.rf.gd/?s={search}"),
 
             
         ]]
@@ -1169,7 +1169,7 @@ async def advantage_spell_chok(msg):
     if not movielist:
         btn =[[
 
-            InlineKeyboardButton(' Click ', url=f"http://ipopcornmovies.rf.gd/?s={search}"),
+            InlineKeyboardButton('👉     𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘     👈', url=f"http://ipopcornmovies.rf.gd/?s={search}"),
 
             
 
@@ -1182,7 +1182,7 @@ async def advantage_spell_chok(msg):
     SPELL_CHECK[msg.id] = movielist
     btn = [[
 
-            InlineKeyboardButton(' Click ', url=f"http://ipopcornmovies.rf.gd/?s={search}"),
+            InlineKeyboardButton('👉    𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘     👈', url=f"http://ipopcornmovies.rf.gd/?s={search}"),
 
             
         ]]
