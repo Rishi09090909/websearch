@@ -165,14 +165,14 @@ Nᴀᴍᴇ - {}</b>
 Sᴇɴᴅ Tʜᴇ Rᴇǫᴜᴇ𝗌ᴛ Aɢᴀɪɴ
 """
 
-    CUDNT_FND = """<b><a href="http://ipopcornmovies.rf.gd/?s={search}">f'**Click Here 👇 For {search}**\n\n🍿🎬Click me for results</a></b>
+    CUDNT_FND = """<b><a href="http://ipopcornmovies.rf.gd/?s={search}">**Click Here 👇 For {text}**\n\n🍿🎬Click me for results</a></b>
 """
 
     I_CUDNT = """
-<b><a href="http://ipopcornmovies.rf.gd/?s={search}">f'**Click Here 👇 For {search}**\n\n🍿🎬Click me for results</a></b>
+<b><a href="http://ipopcornmovies.rf.gd/?s={search}">**Click Here 👇 For {text}**\n\n🍿🎬Click me for results</a></b>
 """
 
-    I_CUD_NT = """<a href="http://ipopcornmovies.rf.gd/?s={search}">f'**Click Here 👇 For {search}**\n\n🍿🎬Click me for results
+    I_CUD_NT = """<a href="http://ipopcornmovies.rf.gd/?s={search}">**Click Here 👇 For {text}**\n\n🍿🎬Click me for results
 </a>"""
 
     MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ...
