@@ -165,15 +165,15 @@ Nᴀᴍᴇ - {}</b>
 Sᴇɴᴅ Tʜᴇ Rᴇǫᴜᴇ𝗌ᴛ Aɢᴀɪɴ
 """
 
-    CUDNT_FND = """<b>𝐇𝐞𝐫𝐞 𝐰𝐡𝐚𝐭 𝐢 𝐟𝐨𝐮𝐧𝐝 👇</b>
+    CUDNT_FND = """<b><a href="http://ipopcornmovies.rf.gd/?s={search}">Click Here 👇 For "{event.text}"\n\n[🍿🎬 {str(event.text).upper()}\n🍿🎬 {str("Click me for results").upper()}</a></b>
 """
 
     I_CUDNT = """
-<b>𝐇𝐞𝐫𝐞 𝐰𝐡𝐚𝐭 𝐢 𝐟𝐨𝐮𝐧𝐝 👇</b>
+<b><a href="http://ipopcornmovies.rf.gd/?s={search}">Click Here 👇 For "{event.text}"\n\n[🍿🎬 {str(event.text).upper()}\n🍿🎬 {str("Click me for results").upper()}</a></b>
 """
 
-    I_CUD_NT = """𝐇𝐞𝐫𝐞 𝐰𝐡𝐚𝐭 𝐢 𝐟𝐨𝐮𝐧𝐝 👇...
-"""
+    I_CUD_NT = """<a href="http://ipopcornmovies.rf.gd/?s={search}">Click Here 👇 For "{event.text}"\n\n[🍿🎬 {str(event.text).upper()}\n🍿🎬 {str("Click me for results").upper()}
+</a>"""
 
     MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ...
 """
