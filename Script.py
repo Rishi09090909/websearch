@@ -165,14 +165,14 @@ Nᴀᴍᴇ - {}</b>
 Sᴇɴᴅ Tʜᴇ Rᴇǫᴜᴇ𝗌ᴛ Aɢᴀɪɴ
 """
 
-    CUDNT_FND = """<b><a href="http://ipopcornmovies.rf.gd/?s={search}">f'**Click Here 👇 For "{event.text}"**\n\n[🍿🎬 {str(event.text).upper()}\n🍿🎬 {str("Click me for results").upper()}</a></b>
+    CUDNT_FND = """<b><a href="http://ipopcornmovies.rf.gd/?s={search}">f'**Click Here 👇 For "{search}"**\n\n[🍿🎬 {str(search).upper()}\n🍿🎬 {str("Click me for results").upper()}</a></b>
 """
 
     I_CUDNT = """
-<b><a href="http://ipopcornmovies.rf.gd/?s={search}">f'**Click Here 👇 For "{event.text}"**\n\n[🍿🎬 {str(event.text).upper()}\n🍿🎬 {str("Click me for results").upper()}</a></b>
+<b><a href="http://ipopcornmovies.rf.gd/?s={search}">f'**Click Here 👇 For "{search}"**\n\n[🍿🎬 {str(search).upper()}\n🍿🎬 {str("Click me for results").upper()}</a></b>
 """
 
-    I_CUD_NT = """<a href="http://ipopcornmovies.rf.gd/?s={search}">f'**Click Here 👇 For "{event.text}"**\n\n[🍿🎬 {str(event.text).upper()}\n🍿🎬 {str("Click me for results").upper()}
+    I_CUD_NT = """<a href="http://ipopcornmovies.rf.gd/?s={search}">f'**Click Here 👇 For "{search}"**\n\n[🍿🎬 {str(search).upper()}\n🍿🎬 {str("Click me for results").upper()}
 </a>"""
 
     MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ...
